@@ -14,7 +14,7 @@ import OrientationBanner from './homeComponents/OrientationBanner'
 const Home = () => {
   return (
     <div >
-      <UpPageBar/>
+      {/* <UpPageBar/> */}
       <Navbar/>
       <MobileSearch/>
       <MobileNavbar/>
