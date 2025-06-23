@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+ 
+}
+body {
+  overflow-x: hidden;
+  font-family: 'instrument sans' , sans-serif;
+  height: 20000px
+}
+
+
+@layer utilities {
+  .wrapper {
+    @apply w-[95%] mx-auto;
+  }
+   .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+    @apply flex items-center justify-between;
+  }
+
+  .zoom-effect {
+    @apply scale-[1.05]
+  }
+  .transition-cubic { 
+    transition: all cubic-bezier(0.4 , 0 , 0.2 , 1) 0.3s;
+  }
+.transition-regular-transform {
+    transition: transform 0.8s ease-in-out;
+  }
+  .transition-regular {
+    transition: all 0.2s ease-in-out;
+  }
+  .bgColor-effect {
+    @apply bg-black text-white
+  }
+  .text-red {
+   color:rgb(208, 71, 62)
+  }
+  .bg-red {
+    background-color:rgb(208, 71, 62)
+  }
+  .gray-underline{
+    @apply block w-full h-[1px] bg-gray-200
+  }
+  .moving-animation {
+    animation: moving-animation 10s linear infinite;
+    
+
+}
+.pause {
+  animation-play-state: paused;
+}
+
+@keyframes moving-animation {
+  0% {
+    transform: translateX(0);
+  } 
+  100% {
+    transform: translateX(-100%);
+  }
+  }
+}
