@@ -10,7 +10,7 @@ const MovingAnimation = () => {
         })
     }, [])
   return (
-    <div className=' moving-animation-wrapper mt-[50px]  flex  py-[40px] border-b-[.5px] border-t-[0.5px] border-gray-200'>
+    <div className=' moving-animation-wrapper mt-[50px] overflow-hidden  flex  py-[40px] border-b-[.5px] border-t-[0.5px] border-gray-200'>
         <div className={`moving-animation-container hidden lg:flex  flex-grow-0 flex-shrink-0 basis-[100%]   justify-between w-full px-[20px] moving-animation ${pause && 'pause'}`}>
             <div className='moving-item flex gap-[20px] items-center   '>
                 <img className='w-[70px] h-[70px] rounded-full' src='https://glozin-demo.myshopify.com/cdn/shop/files/scrolling-img-12.jpg?v=1730861651&width=185' alt=''/>
