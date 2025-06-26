@@ -259,3 +259,43 @@ export const product = {
     }
 
 ]}
+
+
+export const shopByGram = [
+  "https://images.pexels.com/photos/3760859/pexels-photo-3760859.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+ "https://images.pexels.com/photos/1375938/pexels-photo-1375938.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+  "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+  "https://images.pexels.com/photos/1375938/pexels-photo-1375938.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+    "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+     "https://images.pexels.com/photos/3760859/pexels-photo-3760859.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+];
+
+
+export const socialMedia = [
+  {
+  "name": "Facebook",
+  "svg": <svg xmlns='http://www.w3.org/2000/svg' width={20} height={20} viewBox='0 0 24 24' fill='#1877F2'><path d='M22 12c0-5.522-4.477-10-10-10S2 6.478 2 12c0 5.006 3.657 9.128 8.438 9.878v-6.987h-2.54v-2.89h2.54V9.797c0-2.507 1.493-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.242 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.987C18.343 21.128 22 17.006 22 12z'/></svg>
+} , 
+{
+  "name": "Twitter",
+  "svg": <svg xmlns='http://www.w3.org/2000/svg' width={20} height={20} viewBox='0 0 24 24' fill='#000000'><path d='M22.46 6c-.77.35-1.6.58-2.46.69a4.2 4.2 0 001.84-2.31 8.4 8.4 0 01-2.66 1.02 4.2 4.2 0 00-7.1 3.82A11.93 11.93 0 013 4.85a4.2 4.2 0 001.3 5.6 4.18 4.18 0 01-1.9-.52v.05a4.2 4.2 0 003.36 4.12 4.22 4.22 0 01-1.89.07 4.2 4.2 0 003.92 2.91A8.44 8.44 0 012 19.54 11.88 11.88 0 008.29 21c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.37 8.37 0 0022.46 6z'/></svg>
+}
+ , 
+ {
+  "name": "Instagram",
+  "svg": <svg xmlns='http://www.w3.org/2000/svg' width={20} height={20} viewBox='0 0 24 24' fill='#E1306C'><path d='M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5A4.25 4.25 0 007.75 20.5h8.5a4.25 4.25 0 004.25-4.25v-8.5A4.25 4.25 0 0016.25 3.5h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm5.25-.88a1.13 1.13 0 11-2.25 0 1.13 1.13 0 012.25 0z'/></svg>
+}
+ , 
+
+{
+  "name": "LinkedIn",
+  "svg": <svg xmlns='http://www.w3.org/2000/svg' width={20} height={20} viewBox='0 0 24 24' fill='#0077B5'><path d='M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8h4V24h-4V8zm7.5 0h3.8v2.2h.05c.53-1 1.83-2.2 3.8-2.2 4.07 0 4.82 2.7 4.82 6.2V24h-4v-8.4c0-2-.04-4.6-2.8-4.6-2.8 0-3.2 2.2-3.2 4.4V24h-4V8z'/></svg>
+} , 
+{
+  "name": "YouTube",
+  "svg": <svg xmlns='http://www.w3.org/2000/svg' height={20} width={20} viewBox='0 0 24 24' fill='#FF0000'><path d='M19.6 3H4.4A1.4 1.4 0 003 4.4v15.2A1.4 1.4 0 004.4 21h15.2a1.4 1.4 0 001.4-1.4V4.4A1.4 1.4 0 0019.6 3zM10 15.5v-7l6 3.5-6 3.5z'/></svg>
+}
+
+
+]
+

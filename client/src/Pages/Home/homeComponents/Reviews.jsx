@@ -40,7 +40,7 @@ const handelPrev = () => {
                         {
                             customerReviews.map((CustomerReview)=>{
                                 return <div className='review h-[330px]  flex overflow-hidden border-[.4px] border-gray-200 rounded-lg flex-grow-0 flex-shrink-0 basis-[100%] lg:basis-[50%] transition-regular ' style={{transform:`translateX(${transform}%)`}}>
-                                            <div className='reviewer-image-profile h-full min-w-[30%] overflow-hidden'>
+                                            <div className='reviewer-image-profile h-full min-w-[30%] overflow-hidden hidden lg:block'>
                                                 <img className='h-full w-full transition-regular hover:zoom-effect' src={CustomerReview.imageOfProfile} alt={CustomerReview.name} />
                                             </div>
 
@@ -69,20 +69,20 @@ const handelPrev = () => {
                                                         }
                                                     </div>
 
-                                                    <div className='review-content'>
-                                                        <p className='pt-[15px] pb-[50px] text-gray-400 text-[14px]'>{CustomerReview.review}</p>
+                                                    <div className='review-content overflow-auto'>
+                                                        <p className='pt-[15px] h-[140px] text-gray-400 text-[14px]'>{CustomerReview.review}</p>
                                                     </div>
 
                                                     <span className='gray-underline'></span>
 
-                                                    <div className='product-of-review py-[20px] flex gap-[20px] items-center'>
-                                                        <div className='product-img h-[60px] w-[60px] overflow-hidden'>
+                                                    <div className='product-of-review mt-[30px]  flex gap-[20px] items-center'>
+                                                        <div className='product-img h-[40px] w-[40px] lg:h-[60px] lg:w-[60px] overflow-hidden'>
                                                             <img className='w-full h-full rounded-full transition-regular hover:zoom-effect' src={CustomerReview.productOfReview.productimage} alt={CustomerReview.productOfReview.productname} />
                                                         </div>
 
                                                         <div className='name-price'>
                                                             <a href={`/product/${CustomerReview.productOfReview.productname}`}>
-                                                                    <h5 className='text-[13px] font-semibold transition-regular hover:text-red'>{CustomerReview.productOfReview.productname}</h5>
+                                                                    <h5 className='text-[11px] lg:text-[13px] font-semibold transition-regular hover:text-red'>{CustomerReview.productOfReview.productname}</h5>
                                                             </a>
 
                                                             <span>${CustomerReview.productOfReview.price}</span>

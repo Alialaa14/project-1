@@ -15,8 +15,8 @@ const UpPageBar = () => {
 
 
   return (
-    <div className='up-page-bar'>
-        <div className='up-page-bar-container flex-center lg:flex-between px-[20px] py-[3%] lg:py-[1%] bg-black'>
+    <div className='up-page-bar bg-black py-[10px]'>
+        <div className='up-page-bar-container justify-center  lg:flex-between px-[20px] '>
             <Notification/>
 
             <div className='up-page-bar-right hidden lg:flex items-center text-[13px] font-bold text-white gap-[20px]'>
@@ -39,7 +39,7 @@ const UpPageBar = () => {
                         </span>
                     </div>
 
-                    <div className={`currency-list absolute z-[100]  right-0 min-w-[250px]  ps-[10px] py-[10px] bg-white shadow-lg transition-all ease-in-out duration-300 ${showCurrency ? " visible opacity-100 top-[122%] " : "invisible opacity-0 top-[240%]"}`}>
+                    <div className={`currency-list absolute z-50 py-[20px] ps-[5px]  right-0 min-w-[250px]   bg-white shadow-lg transition-all ease-in-out duration-300 ${showCurrency ? " visible opacity-100 top-[122%] " : "invisible opacity-0 top-[240%]"}`}>
                         <div className='currency-list-container '>
                             <ul className='flex flex-col gap-[15px]' >
                                 {

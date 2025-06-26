@@ -10,11 +10,14 @@ import SaleBanner from './homeComponents/SaleBanner'
 import MovingAnimation from '../../Components/MovingAnimation'
 import Reviews from './homeComponents/Reviews'
 import OrientationBanner from './homeComponents/OrientationBanner'
+import ShopByGram from './homeComponents/ShopByGram'
+import Advantages from './homeComponents/Advantages'
+import Footer from '../../Components/Footer'
 
 const Home = () => {
   return (
     <div >
-      {/* <UpPageBar/> */}
+      <UpPageBar/>
       <Navbar/>
       <MobileSearch/>
       <MobileNavbar/>
@@ -24,6 +27,9 @@ const Home = () => {
       <MovingAnimation/>
      <Reviews/>
      <OrientationBanner/>
+     <ShopByGram/>
+     <Advantages/>
+     <Footer/>
 
     </div>
   )

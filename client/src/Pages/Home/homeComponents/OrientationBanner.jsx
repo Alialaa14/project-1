@@ -14,7 +14,7 @@ const OrientationBanner = () => {
   return (
     <div className='orientation-banner mt-[150px] relative'>
         <SectionHeading h1={"Hello! Everyday for Women's"}/>
-        <div className={`wrapper text-center px-[30px]  lg:px-[160px] transition-regular  ${closeBanner ? "h-[280px]" : "h-[90px]"}  overflow-hidden`}>
+        <div className={`wrapper text-center px-[30px]  lg:px-[160px] transition-regular  ${closeBanner ? "h-[500px]" : "h-[90px]"}  overflow-hidden`}>
             <p className='text-[15px] lg:py-[10px]'>Discover a collection of timeless wardrobe essentials, seamlessly transitioning from work to weekend. Inspired by travel, our America-designed pieces prioritize sustainability with natural fibers and mindful practices. Explore a range of
                 <span className='font-semibold underline'> tops,</span>  
                 <span className='font-semibold underline'> bottoms, </span> 

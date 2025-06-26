@@ -18,7 +18,7 @@ const Notification = () => {
         setActiveIndex(activeIndex === notifications.length - 1 ? 0 : activeIndex + 1)
     }
   return (
-    <div className='notification flex'>
+    <div className='notification flex  '>
         <div className='notification-container flex gap-[10px]  '>
               <div className='notification-controls flex'>
                 <button onClickCapture={handlePrev} className='prev text-white'>
@@ -28,10 +28,10 @@ const Notification = () => {
                     <IoIosArrowForward/>
                 </button>
             </div>
-            <div className='notification-slider flex min-w-[350px] text-[14px] overflow-hidden items-center  relative'>
+            <div className='notification-slider flex min-w-[350px]  overflow-hidden items-center  relative'>
                 {
                     notifications.map((item , index)=>{
-                        return <div className={`notification-item text-white flex text-[13px]  absolute px-1  transition-regular-transform  ${index === activeIndex ? "translate-x-[0%] visible" :  `invisible ${directionRef.current==="right" ? "translate-x-[100%]" : "translate-x-[-100%]"}` } `} key={item.id}>
+                        return <div className={`notification-item text-white flex  absolute text-[10px] lg:text-[12px] transition-regular-transform  ${index === activeIndex ? "translate-x-[0%] visible" :  `invisible ${directionRef.current==="right" ? "translate-x-[100%]" : "translate-x-[-100%]"}` } `} key={item.id}>
                             <p>{item.message}</p>
                             <a className='font-bold' href={item.link}>{item.buttonName}</a>
                          </div>   
