@@ -8,7 +8,6 @@ import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 const Reviews = () => {
 
     const [transform , setTransform] = useState(0)
-    const [disable , setDisable] = useState(false)
 const handelNext = () => {
   if (transform > -(customerReviews.length - 2) * 100) {
     setTransform(prev => prev - 100);

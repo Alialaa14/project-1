@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import Notification from './Notification' 
 import { IoIosArrowDown } from "react-icons/io";
 import { currencies } from '../assets/dataTest';
@@ -15,7 +15,7 @@ const UpPageBar = () => {
 
 
   return (
-    <div className='up-page-bar bg-black py-[10px]'>
+    <div className='up-page-bar bg-black py-[10px] max-lg:overflow-hidden'>
         <div className='up-page-bar-container justify-center  lg:flex-between px-[20px] '>
             <Notification/>
 

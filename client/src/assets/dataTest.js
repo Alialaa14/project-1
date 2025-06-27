@@ -226,39 +226,6 @@ export const customerReviews = [
 ];
 
 
-export const product = {
-  id: "1",
-  name: "T-Shirt",
-  description: "Comfortable cotton t-shirt",
-  price: 25,
-  colors: [{ name: "Red", hex: "#FF0000" }],
-  sizes: ["S", "M", "L"],
-  isOnSale: true,
-  discount: 20,
-  categories: ["Men", "Casual"],
-  tags: ["new", "trending"],
-  stock: 150,
-  reviews: [],
-  finalprice: 20,
-  images: [
-    {
-      color: "grey",
-      urls: [
-        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=720",
-        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_2.jpg?v=1715851717&width=720" , 
-        "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_3.jpg?v=1715851717&width=720"
-      ]
-    } , 
-    {
-      color:"white" , 
-      urls:[ "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_4.jpg?v=1715851717&width=720","https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_5.jpg?v=1715851717&width=720" , "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_5.jpg?v=1715851717&width=720"]
-    } , 
-    {
-      color:"black" , 
-    urls:[ "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_7.jpg?v=1715851717&width=720" , "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_8.jpg?v=1715851717&width=720"  , "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_9.jpg?v=1715851717&width=720"]
-    }
-
-]}
 
 
 export const shopByGram = [
@@ -298,4 +265,26 @@ export const socialMedia = [
 
 
 ]
+
+
+export const product  = 
+  {
+    id: 1,
+    productname: "Classic White T-Shirt",
+    sizes: ["S", "M", "L", "XL"],
+    images: [
+      { color: "Grey", urls: ["https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_1.jpg?v=1715851717&width=330", "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_2.jpg?v=1715851717&width=1200" , "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_3.jpg?v=1715851717&width=720" , "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_7_4.jpg?v=1715851717&width=720"] },
+      { color: "azure", urls: ["https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_2.jpg?v=1715851894&width=330", "https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_1.jpg?v=1715851894&width=330","https://glozin-demo.myshopify.com/cdn/shop/files/fashion_products_8_3.jpg?v=1715851894&width=720"] }
+    ],
+    price: 25,
+    discount: 20,
+    finalPrice: 20,
+    describition: "A premium cotton T-shirt for everyday comfort.",
+    category: "Tops",
+    rating: 4.5,
+    limtedStock: true ,
+    views:20 , 
+    reviews:10
+  
+  }
 

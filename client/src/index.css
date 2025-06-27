@@ -15,6 +15,17 @@ body {
  
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f1f1f1;
+}
+
+/* Track */
+
+::-webkit-scrollbar-thumb {
+  background: #b4b4b4;
+}
+
 
 @layer utilities {
   .wrapper {

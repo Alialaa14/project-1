@@ -12,7 +12,7 @@ const ShopByGram = () => {
             <div className='shop-by-gram-container grid grid-cols-12 mt-[50px] justify-items-center  gap-y-[20px]  lg:gap-x-[10px] '>
                 {
                     shopByGram.map((item)=>{
-                        return <div className='item h-[200px] w-[190px]  col-span-12 lg:col-span-2  relative'>
+                        return <div className='item h-[200px]  col-span-6 lg:col-span-2  relative'>
                                     <div className='image h-full'>
                                         <img className='h-full w-full rounded-lg' src={item} alt=''/>
                                     </div>

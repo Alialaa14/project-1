@@ -13,16 +13,19 @@ import OrientationBanner from './homeComponents/OrientationBanner'
 import ShopByGram from './homeComponents/ShopByGram'
 import Advantages from './homeComponents/Advantages'
 import Footer from '../../Components/Footer'
+import NavbarMobile from '../../Components/NavbarMobile'
 
 const Home = () => {
   return (
     <div >
       <UpPageBar/>
       <Navbar/>
+      <NavbarMobile/>
       <MobileSearch/>
       <MobileNavbar/>
       <HomeHeading/>
       <TopCollections/>
+      <BestSelling/>
       <SaleBanner/>
       <MovingAnimation/>
      <Reviews/>
